@@ -1,6 +1,26 @@
-# Demo8CaseStudy
+# User Management Angular App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+
+## Steps Involved
+
+1. ng new <project_name>
+2. Add image to assets folder
+3. Clear the app.component.html file
+4. Add the base code to app.component.html
+5. Add CDN of BootStrap in index.html OR Install BootStrap & add styles and scripts to Angular.json
+6. Make components (home, login, list-user, edit-user, add-user)
+7. Add routes in app-routing.module.ts
+8. Add code to home.component.html
+9. Add json commands - npm install json-server || json-server --watch db.json
+10. Add data to db.json
+11. Create a User.ts File. Create a User class in User.ts and add fields.
+12. Create a user service -> ng g s user
+13. Do mandatory steps for forms and HttpClient in app.module.ts
+14. In tsconfig.json add -> "strictPropertyInitialization": false,
+15. Add methods to user.service.ts (Also add HttpClient import)
+16. Add code to login.component.html and login.component.ts files.
+17. Add code to list-user.component.html and list-user.component.ts files.
 
 ## Development server
 
